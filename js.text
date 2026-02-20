@@ -1,0 +1,61 @@
+$(document).ready(function() {
+  
+    let name = [];
+    let age = [];
+    let city = [];
+
+    $
+    // $('#CLICK').click(function() {
+       
+    //     value.push(document.getElementById('input').value);
+    //     console.log(value);
+    //     $('#output').text(value);
+    //     $('#input').val('');
+    //     $('#input').focus();
+
+
+
+    // });
+    // $('#Remove').click(function() {
+    //     value.pop();
+    //     console.log(value);
+    //     $('#output').text(value);
+        
+    // });
+    
+    $('.add').click(function() {
+
+        
+
+        name.push(document.getElementById('name').value);
+        age.push(document.getElementById('age').value);
+        city.push(document.getElementById('city').value);
+        
+        $('#Name').text(name);
+        $('#Age').text(age);
+        $('#City').text(city);
+
+        
+    
+    
+    
+    });
+
+    $('#btn').click(function() {
+        let Okae =[];
+        while(Okae.length<5){
+            Okae.push(document.getElementById('Okae').value);
+            
+
+        $('#output').text(Okae);
+        if(Okae=='tamana'){
+            Okae.clear();
+            $('#output').text(Okae);
+
+            break;
+            
+        }
+    }
+    });
+    
+});
