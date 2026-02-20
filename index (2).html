@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MALANA_DSA_FINALREQUIREMENTS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>MALANA_DSA_FINALREQUIREMENTS</h1>
+  </header>
+  <!-- Navigation -->
+  <nav>
+    <a href="                                                             
+  </nav>
+  <!-- Content -->
+  <div class="content">
+  <h2>Login</h2>
+  <form id="loginForm">
+  <input id="username" placeholder="Username" required><br>
+  <input id="password" type="password" placeholder="Password" required><br>
+  <button type="submit">Login</button>
+  </form>
+  <div id="queueSection" style="display: none;">
+  <h2>Person Info Queue</h2>
+  <form id="personForm">
+  <input id="name" placeholder="Name" required><br>
+  <input id="age" type="number" placeholder="Age" required><br>
+  <input id="hobbies" placeholder="Hobbies" required><br>
+  <input id="favFood" placeholder="Fav Food" required><br>
+  <input id="favColor" placeholder="Fav Color" required><br>
+  <button type="submit">SAVE</button>
+  </form>
+  <div class="buttons">
+  <button onclick="dequeue()">MAG BAWAS</button>
+  <button onclick="showSize()">Size</button>
+  <button onclick="peek()">PEEK</button>
+  <button onclick="checkEmpty()">WALA BANG LAMAN?</button>
+  <button onclick="checkFull()">PUNO BA?</button>
+  </div>
+  <table id="dataTable">
+  <thead><tr><th>Name</th><th>Age</th><th>Hobbies</th><th>Fav Food</th><th>Fav Color</th></tr></thead>
+  <tbody id="tableBody"></tbody>
+  </table>
+  </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>  MALANA_DSA_FINALREQUIREMENTS</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
